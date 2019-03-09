@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Belle and Bass`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `bassplayerch`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,7 +14,8 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    'gatsby-plugin-styled-components'`gatsby-plugin-sharp`,
+    'gatsby-plugin-typescript',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,4 +32,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};
